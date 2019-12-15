@@ -1,0 +1,17 @@
+1. Write a function to print the schemas of all the tables stored in each csv file.
+
+2. Using dataframes, write a function to print the names of the top three winningest teams in terms of the
+   number of matches won.
+
+
+Invoke program as below for 1 and 2 above.
+
+spark-submit --master local[*] target/scala-2.11/ipltopteams_2.11-1.0.jar 1
+
+or
+
+spark-submit --master local[*] target/scala-2.11/ipltopteams_2.11-1.0.jar 2
+
+Please check that you have the following csv files, preferably in a single folder name "indian-premier-league-csv-dataset":
+Ball_by_Ball.csv  Match.csv  Player.csv  Player_Match.csv  Season.csv  Team.csv
+
